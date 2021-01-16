@@ -1,0 +1,43 @@
+.header{
+    background-color:#000000;
+    display: flex;
+    justify-content: space-between;
+    border:solid;
+    margin-left:50px;
+    padding-left:600px
+}
+
+
+h1{color:blue}
+h2{color:#0000ff}
+.menu{color:#006400; justify-content: space-between;}
+*{border:solid;background-color:#000000;}
+a:link{
+color:white
+
+}
+a:visited{
+color:aqua
+
+}
+.menu{
+    position:relative; 
+    }
+    .menu p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity: 0;
+        
+    }
+    .menu:hover p{
+        opacity:1;
+    }
+    .menu:hover img{
+        opacity:0.5;
+    }
+    
+
+
+
